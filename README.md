@@ -2,9 +2,6 @@
 
 An interactive Streamlit app that detects fraudulent financial transactions with machine learning, treating class imbalance as the core challenge.
 
-**🔗 Live demo:** _add your Streamlit link here_
-
-![App screenshot](screenshots/app.png)
 
 ## ✨ Features
 - **Class imbalance analysis:** percentage of fraudulent transactions, pie and log-scale bar charts
@@ -54,6 +51,14 @@ _Run the app on the Kaggle dataset and add your own numbers, for example:_
 - Accuracy is misleading here: a model that always says "legit" scores very high yet catches no fraud.
 - Recall matters most for fraud, but Precision keeps false alarms manageable. The threshold tab shows the trade-off.
 - SMOTE and scaling are fitted on the training data only, to avoid leakage.
+
+
+## LIVE DEMO
+<p align="center">
+  <a href="https://frauddetectiononaheavilyimbalanceddatase-m5b9owskyssvts9kbo7bp.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_LAUNCH-LIVE_DEMO-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Launch Live Demo"/>
+  </a>
+</p>
 
 ## 👤 Author
 **mdamaanali-ai** · [GitHub](https://github.com/mdamaanali-ai)
